@@ -3,10 +3,14 @@ import 'package:my_project/screen/column/column_screen.dart';
 import 'package:my_project/screen/container/container_practice_screen.dart';
 import 'package:my_project/screen/container/container_screen.dart';
 import 'package:my_project/screen/column/column_practice_screen.dart';
+import 'package:my_project/screen/future/future_screen.dart';
+import 'package:my_project/screen/getx/getx_screen.dart';
 import 'package:my_project/screen/image/image_screen.dart';
 import 'package:my_project/screen/image/image_practice_screen.dart';
 import 'package:my_project/screen/navigator/navigator_screen.dart';
 import 'package:my_project/screen/network/network_screen.dart';
+import 'package:my_project/screen/news/news_screen.dart';
+import 'package:my_project/screen/news/news_screen.dart';
 import 'package:my_project/screen/row/row_practice_screen.dart';
 import 'package:my_project/screen/row/row_screen.dart';
 import 'package:my_project/screen/row/column_row_practice_screen.dart';
@@ -241,6 +245,12 @@ class ButtonScreen extends StatelessWidget {
             button(context, TodoScreen(), "Todo"),
             SizedBox(height: 10),
             button(context, NetworkScreen(), "Network"),
+            SizedBox(height: 10),
+            button(context, FutureScreen(), "Future"),
+            SizedBox(height: 10),
+            button(context, NewsScreen(), "News"),
+            SizedBox(height: 10),
+            button(context, GetxScreen(), "Getx"),
           ],
         ),
         ),
